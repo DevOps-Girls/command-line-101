@@ -112,6 +112,6 @@ ls /bin/
 
 Create a file called `test.txt` in your Desktop using **TextEdit** or similar. How would you:
 
-1.) *Create a directory called `/tmp/test/`
+1.) *Create a directory called `/tmp/test/`*
 
 2.) *Move the `test.txt` file inside the directory?*
