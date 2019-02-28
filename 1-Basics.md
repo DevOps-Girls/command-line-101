@@ -20,10 +20,10 @@ Let's try making a directory. To do that, type:
 mkdir newdirectory
 ```
 
-This will create a directory called `newdirectory` - it's the parameter that follows the command. For example, if you want to create a directory called `banana`, you would type:
+This will create a directory called `newdirectory` - it's the parameter that follows the command. For example, if you want to create a directory called `mango`, you would type:
 
 ```
-mkdir banana
+mkdir mango
 ```
 
 To navigate to the directory, you can use the `cd` command - **change directory**. So:
@@ -39,8 +39,38 @@ cd ~Desktop
 ls
 ```
 
-Once again, `ls` lists out the files and directories of where you're in.
+Once again, `ls` lists out the files and directories of where you're in. To create a new empty file called `apple`, simply type:
 
+```
+touch apple
+```
+
+To see if you actually made it, you can type:
+
+```
+ls
+```
+
+To create copies of directories and files, we can use the `cp` command. For example, to make a copy of `apple` called `banana`, we can simply type:
+
+```
+cp apple banana
+ls
+```
+
+Now, you're not going to want to copy files all the time - sometimes you're going to need to move them or rename them. To rename `apple` to `pineapple`, simply type:
+
+```
+mv apple pineapple
+```
+
+Note that commands work across directories. For example, to make a directory called `fruitbasket` and put all the files inside that directory, simply type:
+
+```
+mkdir fruitbasket
+mv pineapple banana fruitbasket/
+ls fruitbasket/
+```
 
 ## A Guided Tour
 
@@ -115,3 +145,5 @@ Create a file called `test.txt` in your Desktop using **TextEdit** or similar. H
 1.) *Create a directory called `/tmp/test/`*
 
 2.) *Move the `test.txt` file inside the directory?*
+
+3.) *Go to that directory?*
