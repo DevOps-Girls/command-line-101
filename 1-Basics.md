@@ -1,4 +1,4 @@
-## Exercises: Listing files, navigation
+### Exercises: Listing files, navigation
 
 Open up **Finder > Applications > Utilities > Terminal**
 
